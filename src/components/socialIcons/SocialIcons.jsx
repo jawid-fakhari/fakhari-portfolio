@@ -1,5 +1,6 @@
 import React from 'react';
 import Styled from './socialIcons.module.css';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 
 
@@ -11,8 +12,8 @@ function SocialIcons() {
                     <p><span className={Styled.name}>Jawid</span>Fakhari</p>
                 </div>
                 <div className={Styled.socialIcons}>
-                    <a href="https://github.com/jawid-fakhari" target='_blank' rel="noreferrer"></a>
-                    <a href="https://www.linkedin.com/in/fakhari-jawid/" target='_blank' rel="noreferrer"></a>
+                    <a href="https://github.com/jawid-fakhari" target='_blank' rel="noreferrer"><FaGithub /></a>
+                    <a href="https://www.linkedin.com/in/fakhari-jawid/" target='_blank' rel="noreferrer"><FaLinkedin /></a>
                 </div>
             </div>
         </>
