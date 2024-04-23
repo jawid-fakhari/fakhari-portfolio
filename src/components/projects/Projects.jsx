@@ -2,7 +2,7 @@ import React from 'react'
 import '../../pages/home.css';
 import Styled from './projects.module.css';
 import PresentationBox from '../presentationBox/PresentationBox';
-import data from './db'
+import data from './db';
 
 function Projects() {
 
@@ -31,4 +31,4 @@ function Projects() {
     )
 }
 
-export default Projects
+export default Projects;

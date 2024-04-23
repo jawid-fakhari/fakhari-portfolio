@@ -1,6 +1,7 @@
-import React from 'react'
-import Styled from './presentationBox.module.css'
-import '../../pages/home.css'
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from 'react';
+import Styled from './presentationBox.module.css';
+import '../../pages/home.css';
 
 function PresentationBox(props) {
     return (

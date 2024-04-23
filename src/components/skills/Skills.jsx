@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import '../../pages/home.css';
-import Styled from './skills.module.css'
+import Styled from './skills.module.css';
 
 function Skills() {
     return (

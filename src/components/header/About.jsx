@@ -1,8 +1,10 @@
-import React from 'react'
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from 'react';
 import '../../pages/home.css';
-import Styled from './about.module.css'
+import Styled from './about.module.css';
 import SocialIcons from '../socialIcons/SocialIcons';
-import data from '../projects/db'
+import data from '../projects/db';
+
 
 
 
@@ -40,4 +42,4 @@ function About() {
     )
 }
 
-export default About
+export default About;

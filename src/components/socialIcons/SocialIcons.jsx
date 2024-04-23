@@ -1,6 +1,6 @@
-import React from 'react'
-import Styled from './socialIcons.module.css'
-import { FaGithubSquare, FaLinkedin } from 'react-icons/fa'
+import React from 'react';
+import Styled from './socialIcons.module.css';
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
 function SocialIcons() {
     return (
@@ -18,4 +18,4 @@ function SocialIcons() {
     )
 }
 
-export default SocialIcons
+export default SocialIcons;
