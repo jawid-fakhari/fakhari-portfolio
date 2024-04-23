@@ -1,6 +1,7 @@
 /**Headers**/
 .headBox {
   min-height: 65vh;
+  margin-bottom: 50px;
 }
 
 .imageBox {
