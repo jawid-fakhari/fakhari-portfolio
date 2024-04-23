@@ -1,0 +1,13 @@
+.top {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  color: #d9d9d9;
+}
+.socialIcons {
+  display: flex;
+  gap: 7px;
+}

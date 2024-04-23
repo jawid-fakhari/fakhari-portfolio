@@ -1,0 +1,40 @@
+/**Headers**/
+.headBox {
+  min-height: 65vh;
+}
+
+.imageBox {
+  position: absolute;
+  z-index: -1;
+  right: 11%;
+}
+
+/**/
+.titleBox p {
+  margin: 0;
+  padding-top: 35px;
+}
+.titleBox p span {
+  text-decoration: underline 3px #4c0bce;
+  text-underline-offset: 15px;
+}
+.presentationWrap {
+  margin: 50px 0;
+  width: 50%;
+}
+/**/
+
+@media screen and (max-width: 1626px) {
+  .titleBox {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .imageBox img {
+    display: none;
+  }
+  .presentationWrap {
+    margin: 50px 0;
+    width: 80%;
+  }
+}

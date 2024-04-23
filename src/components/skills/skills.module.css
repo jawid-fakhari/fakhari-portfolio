@@ -1,0 +1,38 @@
+hr {
+  border: none;
+  border-top: 1px solid #d9d9d9;
+}
+.skillsWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 50px;
+  margin-bottom: 150px;
+  margin-top: 70px;
+
+  /* border: 1px solid green; */
+}
+.skillLevel {
+  color: #d9d9d9;
+}
+
+@media screen and (max-width: 850px) {
+  .skillsWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    row-gap: 50px;
+    margin-bottom: 150px;
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .skillsWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    row-gap: 50px;
+    margin-bottom: 150px;
+    margin-top: 70px;
+  }
+}

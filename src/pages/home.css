@@ -1,0 +1,35 @@
+* {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #ffffff;
+  margin: 0;
+}
+/**/
+.titleXL {
+  font-size: 88px;
+  word-spacing: -2.5px;
+  font-weight: bold;
+  line-height: 88px;
+}
+.titleL {
+  font-size: 48px;
+  word-spacing: -1.5px;
+  font-weight: bold;
+  line-height: 56px;
+}
+.titleM {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+}
+.prgMedium {
+  font-size: 18px;
+  line-height: 28px;
+  font-size: medium;
+}
+/**/
+.contactLink a {
+  text-underline-offset: 10px;
+  text-decoration: underline 2px #4c0bce;
+}

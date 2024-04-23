@@ -1,0 +1,15 @@
+.title {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+.right {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.boxesWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
